@@ -25,7 +25,6 @@ cd te-apm-instrumentation
 ## Lab Exercises
 In this workshop, you will instrument a server application using Node.js. For all other languages, you will instrument client applications that connect to the Node.JS server. After completing the lab exercises, you should have a better understanding of the processes required to manually instrument applications for Splunk APM.
 
-### Required Labs
 1. [Install the Splunk OpenTelemetry Connector](./otel/README.md)
 1. [Instrument a Node.JS application](./nodejs/README.md)
 1. [Instrument a Java application](./java/README.md)
