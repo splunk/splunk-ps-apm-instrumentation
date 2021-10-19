@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+    
+  splunk-otel-collector:
+    image: quay.io/signalfx/splunk-otel-collector:latest
+    container_name: splunk-otel-collector
+    environment:
+      - SPLUNK_ACCESS_TOKEN=${SPLUNK_ACCESS_TOKEN}
+      - SPLUNK_REALM=${SPLUNK_REALM}
+    ports:
+      - 55681:55681
+      - 13133:13133
+      - 14250:14250
+      - 14268:14268
+      - 4317:4317
+      - 6060:6060
+      - 8888:8888
+      - 9080:9080
+      - 9411:9411
+      - 9943:9943

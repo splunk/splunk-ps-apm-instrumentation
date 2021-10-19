@@ -1,0 +1,33 @@
+# Instrumenting Apps for Splunk APM
+
+## Overview
+This workshop will demonstrate how to manually instrument applications for Splunk Application Performance Monitoring (APM). For each language listed below, the workshop will:
+- Describe how to set up a local development environment
+- List the required instrumentation libraries
+- Provide a concise sample application to demonstrate concepts
+
+## Prerequisites
+All lab exercises share the following set of requirements:
+
+- Previous experience with the selected programming language
+- You have git installed to clone this repository
+- You are a member of a Splunk APM enabled organization in the Splunk Observability Cloud and you have a valid access token from the organization
+
+## Getting Started
+Before you begin, you must complete the following steps:
+
+1. Clone the GitHub repository
+```
+git clone https://github.com/pgodby/te-apm-instrumentation
+cd te-apm-instrumentation
+``` 
+
+## Lab Exercises
+In this workshop, you will instrument a server application using Node.js. For all other languages, you will instrument client applications that connect to the Node.JS server. After completing the lab exercises, you should have a better understanding of the processes required to manually instrument applications for Splunk APM.
+
+### Required Labs
+1. [Install the Splunk OpenTelemetry Connector](./otel/README.md)
+1. [Instrument a Node.JS application](./nodejs/README.md)
+### Optional Labs
+3. [Instrument a Java application](./java/README.md)
+1. [Instrument a Python application](./python/README.md)
