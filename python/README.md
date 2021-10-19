@@ -33,8 +33,7 @@ Before you begin, you must first complete the following tasks:
     * Set the operation name to "/api"
     * Set the span kind to "client"
 1. Add an attribute to the current span.
-    * Set the key to "username"
-    * Set the value to "user01"
+    * Set the key to "username" and the value to "user01"
 1. Add an event to the current span.
     * Indicate that a GET request is about to be made.
 1. Add a status to the current span.
