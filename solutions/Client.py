@@ -5,8 +5,6 @@ import requests
 tracer = trace.get_tracer("te-apm")
 
 def getAPI():
-    global tracer
-
     span = tracer.start_span(name="/api", kind=trace.SpanKind.CLIENT)
     span.set_attribute("username", "user01")
     span.add_event("GET something")

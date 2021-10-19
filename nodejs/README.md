@@ -10,7 +10,7 @@ For each of the steps below, the line(s) of code will be provided for you. Howev
 
 To complete this exercise, you must have the following software installed:
 
-1. [Node.js](https://nodejs.org/)
+1. [Node.js](https://nodejs.org/) (v8+)
 
 Before you begin, you must first complete the following tasks:
 
@@ -30,7 +30,6 @@ Before you begin, you must first complete the following tasks:
 1. Import the required libraries
     ```javascript
     const opentelemetry = require('@opentelemetry/api');
-    const tracer = opentelemetry.trace.getTracer('te-apm');
     ```
 1. Initialize a global tracer
     ```javascript

@@ -10,7 +10,7 @@ This workshop will demonstrate how to manually instrument applications for Splun
 All lab exercises share the following set of requirements:
 
 - Previous experience with the selected programming language
-- You have git installed to clone this repository
+- You have [git](https://git-scm.com/) installed to clone this repository
 - You are a member of a Splunk APM enabled organization in the Splunk Observability Cloud and you have a valid access token from the organization
 
 ## Getting Started
@@ -28,6 +28,5 @@ In this workshop, you will instrument a server application using Node.js. For al
 ### Required Labs
 1. [Install the Splunk OpenTelemetry Connector](./otel/README.md)
 1. [Instrument a Node.JS application](./nodejs/README.md)
-### Optional Labs
-3. [Instrument a Java application](./java/README.md)
+1. [Instrument a Java application](./java/README.md)
 1. [Instrument a Python application](./python/README.md)

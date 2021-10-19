@@ -1,7 +1,7 @@
 # Install the Splunk OpenTelemetry Connector
 
 ## Overview
-In this lab exercise, you will install and configure the Splunk OpenTelemetry Connector. All code instrumentation examples will send data to this connector to be forwarded to Splunk Application Performance Monitorin (APM).
+In this lab exercise, you will install and configure the Splunk OpenTelemetry Connector. All code instrumentation examples will send data to this connector to be forwarded to Splunk Application Performance Monitoring (APM).
 
 Choose and complete one of the following options:
 1. Perform a manual installation of the Splunk OpenTelemetry Connector.
@@ -35,7 +35,6 @@ Perform the following steps to use the Docker image defined in this repository.
 1. Save and close the file.
 1. In the terminal, enter the following command(s) to start the Docker image.
     ```
-    cd /te-apm-instrumentation/otel
     docker compose up --build
     ```
 1. To stop the Docker image, return to this terminal window and press: **CTRL-C**
