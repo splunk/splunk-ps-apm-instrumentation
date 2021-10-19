@@ -28,11 +28,17 @@ Before you begin, you must first complete the following tasks:
     ```
 1. In a code/text editor, open file: **Client.py**
 1. Import the required libraries. You will need to create a tracer (to generate a span) and apply a status code to the span.
-1. Initialize a global tracer
-1. Create a new span in the function that sets up the "/api" endpoint. Set the operation name to "/api" and set the span kind to "client".
-1. Add an attribute to the current span. Set the key to "username" and the value to "user01".
-1. Add an event to the current span. Indicate that a GET request is about to be made.
-1. Add a status to the current span. Set the status to "ok".
+1. Initialize a global tracer.
+1. Create a new span in the function that sets up the "/api" endpoint.
+    * Set the operation name to "/api"
+    * Set the span kind to "client"
+1. Add an attribute to the current span.
+    * Set the key to "username"
+    * Set the value to "user01"
+1. Add an event to the current span.
+    * Indicate that a GET request is about to be made.
+1. Add a status to the current span.
+    * Set the status to "ok"
 1. In this directory, open the file named: **run.sh**
 1. Add the following lines to the file. Set your Splunk APM environment name as appropriate. Make it unique so that you can filter for your applications in Splunk APM.
     ```
