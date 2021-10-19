@@ -29,6 +29,7 @@ Before you begin, you must first complete the following tasks:
 1. In a code/text editor, open file: **Client.py**
 1. Import the required libraries. You will need to create a tracer (to generate a span) and apply a status code to the span.
 1. Initialize a global tracer.
+    * Set the instrumentation library name to "te-apm"
 1. Create a new span in the function that sets up the "/api" endpoint.
     * Set the operation name to "/api"
     * Set the span kind to "client"
