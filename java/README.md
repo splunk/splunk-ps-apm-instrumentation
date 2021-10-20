@@ -17,10 +17,10 @@ Before you begin, you must first complete the following tasks:
 
 1. [Install the Splunk OpenTelemetry Connector](../otel/README.md)
 1. [Instrument a Node.JS application](../nodejs/README.md)
-1. Review the [OpenTelementry Java Getting Started Guide](https://opentelemetry.io/docs/java/manual_instrumentation/)
 
 ## Lab Exercise
 
+1. Review the [OpenTelementry Java Getting Started Guide](https://opentelemetry.io/docs/java/manual_instrumentation/)
 1. Review the core dependencies. In this exercise, you will be using Maven.
     ```
     cd /te-apm-instrumentation/java

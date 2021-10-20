@@ -16,10 +16,10 @@ Before you begin, you must first complete the following tasks:
 
 1. [Install the Splunk OpenTelemetry Connector](../otel/README.md)
 1. [Instrument a Node.JS application](../nodejs/README.md)
-1. Review the [OpenTelementry Python Getting Started Guide](https://opentelemetry.io/docs/python/getting-started/)
 
 ## Lab Exercise
 
+1. Review the [OpenTelementry Python Getting Started Guide](https://opentelemetry.io/docs/python/getting-started/)
 1. Install the core dependencies.
     ```
     requests

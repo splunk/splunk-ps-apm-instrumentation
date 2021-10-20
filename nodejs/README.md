@@ -15,10 +15,10 @@ To complete this exercise, you must have the following software installed:
 Before you begin, you must first complete the following tasks:
 
 1. [Install the Splunk OpenTelemetry Connector](../otel/README.md)
-1. Review the [OpenTelementry Node.JS Getting Started Guide](https://opentelemetry.io/docs/js/getting_started/nodejs)
 
 ## Lab Exercise
 
+1. Review the [OpenTelementry Node.JS Getting Started Guide](https://opentelemetry.io/docs/js/getting_started/nodejs)
 1. Install the core dependencies
     ```
     cd /te-apm-instrumentation/nodejs
