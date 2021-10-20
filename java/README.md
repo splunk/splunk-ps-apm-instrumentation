@@ -11,6 +11,7 @@ For each of the steps below, the line(s) of code will be provided for you. Howev
 To complete this exercise, you must have the following software installed:
 
 1. [Java](https://openjdk.java.net/) (v8+)
+1. [Maven](https://maven.apache.org/)
 
 Before you begin, you must first complete the following tasks:
 
