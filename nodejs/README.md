@@ -14,11 +14,11 @@ To complete this exercise, you must have the following software installed:
 
 Before you begin, you must first complete the following tasks:
 
-1. [Deploy the Base Environment](./base/README.md)
+1. [Deploy the Base Environment](../base/README.md)
 
 ## Lab Exercise
 
-1. Review the [OpenTelementry Node.JS Getting Started Guide](https://opentelemetry.io/docs/js/getting_started/nodejs)
+1. Review the [OpenTelementry JavaScript Instrumentation Guide](https://opentelemetry.io/docs/js/instrumentation/)
 1. Install the core dependencies
     ```
     cd /te-apm-instrumentation/nodejs

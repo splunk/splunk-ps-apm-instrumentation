@@ -15,12 +15,12 @@ To complete this exercise, you must have the following software installed:
 
 Before you begin, you must first complete the following tasks:
 
-1. [Deploy the Base Environment](./base/README.md)
+1. [Deploy the Base Environment](../base/README.md)
 1. [Instrument a Node.JS application](../nodejs/README.md)
 
 ## Lab Exercise
 
-1. Review the [OpenTelementry Java Getting Started Guide](https://opentelemetry.io/docs/java/manual_instrumentation/)
+1. Review the [OpenTelementry Java Manual Instrumentation Guide](https://opentelemetry.io/docs/java/manual_instrumentation/)
 1. Review the core dependencies. In this exercise, you will be using Maven.
     ```
     cd /te-apm-instrumentation/java
