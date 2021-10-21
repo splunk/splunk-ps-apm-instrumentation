@@ -14,7 +14,7 @@ To complete this exercise, you must have the following software installed:
 
 Before you begin, you must first complete the following tasks:
 
-1. [Install the Splunk OpenTelemetry Connector](../otel/README.md)
+1. [Deploy the Base Environment](./base/README.md)
 
 ## Lab Exercise
 
@@ -74,4 +74,4 @@ Before you begin, you must first complete the following tasks:
 1. In a web browser, navigate to location [http://localhost:3000/api](http://localhost:3000/api) to generate a new span.
 1. Review your application(s) in Splunk APM. In the UI, filter for your environment so that you see only the applications that you have instrumented.
 
-[Previous](../otel/README.md) | [Home](../README.md) | [Next](../java/README.md)
+[Previous](../base/README.md) | [Home](../README.md) | [Next](../java/README.md)

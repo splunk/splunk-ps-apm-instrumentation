@@ -5,6 +5,7 @@ services:
   splunk-otel-collector:
     image: quay.io/signalfx/splunk-otel-collector:latest
     container_name: splunk-otel-collector
+    restart: always
     environment:
       - SPLUNK_ACCESS_TOKEN=${SPLUNK_ACCESS_TOKEN}
       - SPLUNK_REALM=${SPLUNK_REALM}
@@ -19,3 +20,10 @@ services:
       - 9080:9080
       - 9411:9411
       - 9943:9943
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: always
+    ports:
+      - 27017:27017

@@ -14,7 +14,7 @@ To complete this exercise, you must have the following software installed:
 
 Before you begin, you must first complete the following tasks:
 
-1. [Install the Splunk OpenTelemetry Connector](../otel/README.md)
+1. [Deploy the Base Environment](./base/README.md)
 1. [Instrument a Node.JS application](../nodejs/README.md)
 
 ## Lab Exercise
