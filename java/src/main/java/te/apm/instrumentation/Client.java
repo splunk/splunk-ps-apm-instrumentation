@@ -10,6 +10,7 @@ public class Client {
 
     private static final HttpClient client = HttpClient.newHttpClient();
 
+    // call the /api endpoint of the Node.JS server
     public void getAPI() {
         try {
             HttpRequest request = HttpRequest.newBuilder()

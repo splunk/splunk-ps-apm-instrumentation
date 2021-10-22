@@ -3,7 +3,6 @@
 ## Overview
 This workshop will demonstrate how to manually instrument applications for Splunk Application Performance Monitoring (APM). For each language listed below, the workshop will:
 - Describe how to set up a local development environment
-- List the required instrumentation libraries
 - Provide a concise sample application to demonstrate concepts
 
 ## Prerequisites

@@ -4,6 +4,7 @@ import requests
 
 tracer = trace.get_tracer("te-apm")
 
+# call the /api endpoint of the Node.JS server
 def getAPI():
     span = tracer.start_span(name="/api", kind=trace.SpanKind.CLIENT)
     span.set_attribute("username", "user01")

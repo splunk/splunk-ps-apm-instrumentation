@@ -21,10 +21,9 @@ Perform the following steps to configure and start the Docker containers require
     SPLUNK_REALM=<your_realm>
     ```
 1. Save and close the file.
-1. Review the containers defined in the Docker Compose file: **docker-compose.yml**
 1. Return to the terminal and enter the following command(s) to start the Docker containers.
     ```
-    docker compose up --build
+    docker-compose up --build
     ```
 1. To stop the Docker containers, return to this terminal window and press: **CTRL-C**
 1. Proceed to the code instrumentation exercises.

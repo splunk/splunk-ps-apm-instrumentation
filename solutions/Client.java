@@ -18,6 +18,7 @@ public class Client {
     private static final HttpClient client = HttpClient.newHttpClient();
 	private static final Tracer tracer = GlobalOpenTelemetry.getTracer("te-apm");
 
+    // call the /api endpoint of the Node.JS server
     public void getAPI() {
     	Span span = tracer.spanBuilder("/api").setSpanKind(SpanKind.CLIENT).startSpan();
         span.setAttribute("username", "user01");

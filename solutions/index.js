@@ -1,3 +1,4 @@
+// load environment variables from .env file
 require('dotenv').config();
 
 const { startTracing } = require('@splunk/otel');
@@ -9,6 +10,7 @@ const tracer = opentelemetry.trace.getTracer('te-apm');
 const express = require("express");
 const app = express();
 
+// a connection to the MongoDB Docker container
 let dbConn = null;
 const { MongoClient } = require("mongodb");
 MongoClient.connect("mongodb://localhost:27017", {
@@ -17,6 +19,7 @@ MongoClient.connect("mongodb://localhost:27017", {
     dbConn = client.db("test").admin();
 });
 
+// ping the database to demonstrate a remote service call
 getDatabases = (parentSpan) => {
     const ctx = opentelemetry.trace.setSpan(opentelemetry.context.active(), parentSpan);
     const span = tracer.startSpan('mongo', { 'kind':opentelemetry.SpanKind.CLIENT }, ctx);
@@ -28,6 +31,7 @@ getDatabases = (parentSpan) => {
     });
 } 
 
+// publish a /api endpont for HTTP GET requests
 app.get("/api", (req, res) => {
     const span = tracer.startSpan('/api', { 'kind':opentelemetry.SpanKind.SERVER });
     span.setAttribute('username',req.query.username);
@@ -40,6 +44,7 @@ app.get("/api", (req, res) => {
     span.end();
 });
 
+// start the server
 app.listen(3000, () => {
     console.log(`Server listening on 3000`);
 });
