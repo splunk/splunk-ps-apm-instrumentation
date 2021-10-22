@@ -21,7 +21,7 @@ Before you begin, you must first complete the following tasks:
 1. Review the [OpenTelementry JavaScript Instrumentation Guide](https://opentelemetry.io/docs/js/instrumentation/)
 1. Review the [Splunk Distribution of OpenTelemetry for Node.js](https://github.com/signalfx/splunk-otel-js)
 1. Review the sample application: **index.js**
-1. To run the code (as is), execute the following command(s):
+1. To run the code (as is), execute the following commands:
     ```
     cd /te-apm-instrumentation/nodejs
     npm install
@@ -33,11 +33,11 @@ Before you begin, you must first complete the following tasks:
     * Use Line 25 to create a new span.
     * As already demonstrated in the code, pass this new span to the getDatabases function.
     * In the getDatabases function, create a new child span and capture any inferred services.
-1. Start the server using the following command(s):
+1. Start the server using the following commands:
     ```
     cd /te-apm-instrumentation/nodejs
     node index.js
     ```
-1. Review your application(s) in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
+1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
 
 [Previous](../base/README.md) | [Home](../README.md) | [Next](../java/README.md)

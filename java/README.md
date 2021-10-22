@@ -23,17 +23,17 @@ Before you begin, you must first complete the following tasks:
 1. Review the [OpenTelementry Java Manual Instrumentation Guide](https://opentelemetry.io/docs/java/manual_instrumentation/)
 1. Review the [Splunk Distribution of OpenTelemetry Java](https://github.com/signalfx/splunk-otel-java)
 1. Review the sample application: **Client.java**
-1. To run the code (as is), execute the following command(s):
+1. To run the code (as is), execute the following commands:
     ```
     cd /te-apm-instrumentation/java
     java src/main/java/te/apm/instrumentation/Client.py
     ```
 1. Instrument the sample application using OpenTelemetry and send the trace data to Splunk APM. Make sure to include attributes, events, and status messages as appropriate.
-1. A script has been provided to execute the instrumented code. Review the script, make any necessary updates to it, and then execute it using the following command(s):
+1. A script has been provided to execute the instrumented code. Review the script, make any necessary updates to it, and then execute it using the following commands:
     ```
     cd /te-apm-instrumentation/java
     sh run.sh
     ```
-1. Review your application(s) in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
+1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
 
 [Previous](../nodejs/README.md) | [Home](../README.md) | [Next](../python/README.md)
