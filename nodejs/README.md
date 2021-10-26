@@ -31,8 +31,7 @@ Before you begin, you must first complete the following tasks:
 1. To stop the server, return to this terminal window and press: **CTRL-C**
 1. Instrument the sample application using OpenTelemetry and send the trace data to Splunk APM. Make sure to include attributes, events, and status messages as appropriate.
     * Use Line 25 to create a new span.
-    * As already demonstrated in the code, pass this new span to the getDatabases function.
-    * In the getDatabases function, create a new child span.
+    * As already demonstrated in the code, pass this new span to the getDatabases function. Use it to create a child span.
 1. Start the server using the following commands:
     ```
     cd /te-apm-instrumentation/nodejs
