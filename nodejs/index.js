@@ -20,7 +20,7 @@ getDatabases = (parentSpan) => {
     });
 } 
 
-// publish a /api endpont for HTTP GET requests
+// publish a /api endpoint for HTTP GET requests
 app.get("/api", (req, res) => {
     const span = null;
     getDatabases(span);
