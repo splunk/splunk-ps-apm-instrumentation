@@ -36,4 +36,4 @@ Before you begin, you must first complete the following tasks:
     ```
 1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
 
-[Previous](../nodejs/README.md) | [Home](../README.md) | [Next](../python/README.md)
+[Previous](../nodejs) | [Home](../) | [Next](../python/)
