@@ -39,4 +39,4 @@ Before you begin, you must first complete the following tasks:
     ```
 1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
 
-[Previous](../base/) | [Home](../) | [Next](../java/)
+[Previous](../base/) | [Next](../java/)
