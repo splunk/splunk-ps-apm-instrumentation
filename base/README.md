@@ -28,4 +28,4 @@ Perform the following steps to configure and start the Docker containers require
 1. To stop the Docker containers, return to this terminal window and press: **CTRL-C**
 1. Proceed to the code instrumentation exercises.
 
-[Home](../) | [Next](../nodejs/)
+[Home](..) | [Next](../nodejs/)
