@@ -2,8 +2,8 @@
 
 ## Overview
 In this lab exercise, you will deploy the base environment required for the code instrumentation exercises. The base environment consists of the following Docker containers:
-* The Splunk OpenTelemetry Connector will be used to forward trace data to Splunk Application Performance Monitoring (APM).
-* MongoDB will be used by the Node.JS server to provide an inferred service when viewing the instrumented applications in Splunk APM.
+* The **Splunk OpenTelemetry Connector** will be used to forward trace data to Splunk Application Performance Monitoring (APM).
+* **MongoDB** will be used by the Node.JS server to provide an inferred service when viewing the instrumented applications in Splunk APM.
 
 ## Start the Docker containers
 Perform the following steps to configure and start the Docker containers required for the lab exercises.

@@ -4,7 +4,9 @@
 
 In this lab exercise, you will manually instrument a Python application. You will add the required libraries, define a global tracer, create new spans, set attributes, add events, and set the span status.
 
-To more closely resemble a customer enagement, the steps listed below are intentionally vague. You will be provided with a concise piece of code to demonstrate basic concepts. It will be up to you to decide what additional lines of code should be added and where they should be placed. A completed solution file can be found [here](../solutions/Client.py).
+To more closely resemble a customer enagement, the steps listed below are intentionally vague. You will be provided with a small piece of code to demonstrate basic concepts. It will be up to you to decide what additional lines of code should be added and where they should be placed.
+
+A completed solution file can be found [here](../solutions/Client.py).
 
 ## Prerequisites
 
@@ -12,7 +14,7 @@ To complete this exercise, you must have the following software installed:
 
 1. [Python](https://www.python.org/downloads/) (v3.6+)
 
-Before you begin, you must first complete the following tasks:
+Before you begin, you must first complete the following lab exercises:
 
 1. [Deploy the Base Environment](../base/README.md)
 1. [Instrument a Node.JS application](../nodejs/README.md)
