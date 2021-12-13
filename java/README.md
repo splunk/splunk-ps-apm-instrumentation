@@ -27,7 +27,7 @@ Before you begin, you must first complete the following lab exercises:
 1. Review the sample application: **Client.java**
 1. To run the code (as is), execute the following commands:
     ```
-    cd /te-apm-instrumentation/java
+    cd /splunk-ps-apm-instrumentation/java
     java src/main/java/te/apm/instrumentation/Client.java
     ```
 1. Instrument the sample application using OpenTelemetry and send the trace data to Splunk APM. Make sure to include attributes, events, and status messages as appropriate.
