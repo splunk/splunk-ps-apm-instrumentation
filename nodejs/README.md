@@ -25,7 +25,7 @@ Before you begin, you must first complete the following lab exercises:
 1. Review the sample application: **index.js**
 1. To run the code (as is), execute the following commands:
     ```
-    cd /te-apm-instrumentation/nodejs
+    cd /splunk-ps-apm-instrumentation/nodejs
     npm install
     node index.js
     ```
@@ -36,7 +36,7 @@ Before you begin, you must first complete the following lab exercises:
     * As already demonstrated in the code, pass this new span to the getDatabases function. Use it to create a child span.
 1. Start the server using the following commands:
     ```
-    cd /te-apm-instrumentation/nodejs
+    cd /splunk-ps-apm-instrumentation/nodejs
     node index.js
     ```
 1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
