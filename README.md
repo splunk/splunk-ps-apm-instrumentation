@@ -17,8 +17,8 @@ Before you begin, you must complete the following steps:
 
 1. Clone the GitHub repository
 ```
-git clone https://github.com/pgodby/te-apm-instrumentation
-cd te-apm-instrumentation
+git clone https://github.com/splunk/splunk-ps-apm-instrumentation.git
+cd splunk-ps-apm-instrumentation
 ``` 
 
 ## Lab Exercises
