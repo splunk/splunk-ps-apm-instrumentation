@@ -12,7 +12,7 @@ Perform the following steps to configure and start the Docker containers require
 1. Install [Docker Compose](https://docs.docker.com/compose/install/) 
 1. In a terminal, navigate to the following directory.
     ```
-    cd /te-apm-instrumentation/base
+    cd /splunk-ps-apm-instrumentation/base
     ```
 1. In this directory, create a new text file named: **.env**
 1. Add the following lines to the file. Set your Splunk APM token and realm information as appropriate.
