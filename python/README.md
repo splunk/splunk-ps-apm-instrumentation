@@ -26,14 +26,14 @@ Before you begin, you must first complete the following lab exercises:
 1. Review the sample application: **Client.py**
 1. To run the code (as is), execute the following commands:
     ```
-    cd /te-apm-instrumentation/python
+    cd /splunk-ps-apm-instrumentation/python
     pip3 install requests
     python3 Client.py
     ```
 1. Instrument the sample application using OpenTelemetry and send the trace data to Splunk APM. Make sure to include attributes, events, and status messages as appropriate.
 1. A script has been provided to execute the instrumented code. Review the script, make any necessary updates to it, and then execute it using the following commands:
     ```
-    cd /te-apm-instrumentation/python
+    cd /splunk-ps-apm-instrumentation/python
     sh run.sh
     ```
 1. Review your applications in Splunk APM. In the UI, filter for your environment so that you only see the applications you have instrumented.
